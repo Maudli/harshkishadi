@@ -5,11 +5,7 @@ export default defineConfig({
   tanstackStart: {
     server: { entry: "server" },
   },
-
-  // Disable Lovable's default Cloudflare Nitro deployment.
   nitro: false,
-
-  // Add Netlify's TanStack Start integration.
   vite: {
     plugins: [netlify()],
   },
