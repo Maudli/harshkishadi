@@ -2,10 +2,10 @@ import { createFileRoute } from "@tanstack/react-router";
 import { useCallback, useEffect, useState } from "react";
 import { EnvelopeIntro } from "@/components/EnvelopeIntro";
 import { Flourish, Monogram, Reveal } from "@/components/Reveal";
-import coupleImg from "@/assets/couple.png";
-import harshImg from "@/assets/harsh.png";
-import monikaImg from "@/assets/monika.png";
-import venueImg from "@/assets/venue.png";
+import coupleImg from "@/assets/couple.webp";
+import harshImg from "@/assets/harsh.webp";
+import monikaImg from "@/assets/monika.webp";
+import venueImg from "@/assets/venue.webp";
 import logoImg from "@/assets/logo.png";
 
 export const Route = createFileRoute("/")({
